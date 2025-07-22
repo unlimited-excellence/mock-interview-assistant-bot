@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix='/', intents=intents)
 
 @bot.command(name="ping")
 async def ping(context):
-    await context.send("pong")
+    await context.send("Pong")
 
 bot.run("")
 
